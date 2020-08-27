@@ -1,0 +1,16 @@
+service: pizzaexercise
+
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: us-east-1
+
+functions:
+  makeAnOrder:
+    handler: handler.makeAnOrder
+    events:
+      - http:
+          method: post
+          path: orders
+
