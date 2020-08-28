@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Jorduque16/pizza-exercise#readme",
   "dependencies": {
+    "aws-sdk": "^2.741.0",
     "uuid": "^8.3.0",
     "uuidv4": "^6.2.3"
   }
